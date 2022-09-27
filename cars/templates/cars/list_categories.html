@@ -1,0 +1,3 @@
+{% for item in categories %}
+    <a class="dropdown-item" href="{{ item.get_absolute_url }}">{{ item }}</a>
+{% endfor %}
